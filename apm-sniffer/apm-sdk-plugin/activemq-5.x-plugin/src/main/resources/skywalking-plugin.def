@@ -16,4 +16,5 @@
 
 activemq-5.x=org.apache.skywalking.apm.plugin.activemq.define.ActiveMQProducerInstrumentation
 activemq-5.x=org.apache.skywalking.apm.plugin.activemq.define.ActiveMQConsumerInstrumentation
+activemq-5.x=org.apache.skywalking.apm.plugin.activemq.URLInstrumentation2
 activemq-5.x=org.apache.skywalking.apm.plugin.activemq.URLInstrumentation
