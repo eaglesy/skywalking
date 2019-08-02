@@ -87,12 +87,12 @@
                                     <exclude>com.google.guava:guava</exclude>
                                 </excludes>
                             </artifactSet>
-                            <relocations>
-                                <relocation>
-                                    <pattern>${shade.net.bytebuddy.source}</pattern>
-                                    <shadedPattern>${shade.net.bytebuddy.target}</shadedPattern>
-                                </relocation>
-                            </relocations>
+<!--                            <relocations>-->
+<!--                                <relocation>-->
+<!--                                    <pattern>${shade.net.bytebuddy.source}</pattern>-->
+<!--                                    <shadedPattern>${shade.net.bytebuddy.target}</shadedPattern>-->
+<!--                                </relocation>-->
+<!--                            </relocations>-->
                             <filters>
                                 <filter>
                                     <artifact>net.bytebuddy:byte-buddy</artifact>

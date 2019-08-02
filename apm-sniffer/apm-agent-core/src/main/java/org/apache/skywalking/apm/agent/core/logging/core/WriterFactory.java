@@ -35,7 +35,7 @@ public class WriterFactory {
                     e.printStackTrace();
                 }
             }
-            return FileWriter.get();
+            return SystemOutWriter.INSTANCE;
         } else {
             return SystemOutWriter.INSTANCE;
         }

@@ -53,7 +53,7 @@ import static net.bytebuddy.matcher.ElementMatchers.named;
  */
 public class BootstrapInstrumentBoost {
     private static final ILog logger = LogManager.getLogger(BootstrapInstrumentBoost.class);
-    private static final String SHADE_PACKAGE = "org.apache.skywalking.apm.dependencies.";
+    private static final String SHADE_PACKAGE = "";
     private static final String[] HIGH_PRIORITY_CLASSES = {
         "org.apache.skywalking.apm.agent.core.plugin.interceptor.enhance.EnhancedInstance",
         "org.apache.skywalking.apm.agent.core.plugin.interceptor.enhance.BootstrapInterRuntimeAssist",
